@@ -1,0 +1,27 @@
+{
+  "name": "hand-tracking-project",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack serve --open-app-name 'brave-browser' --mode development",
+    "brave": "webpack serve --open-app-name 'brave-browser' --mode development",
+    "firefox": "webpack serve --open-app-name 'firefox' --mode development",
+    "chrome": "webpack serve --open-app-name 'google-chrome' --mode development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.6.0",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.5.4",
+    "webpack": "^5.94.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  },
+  "dependencies": {
+    "@mediapipe/tasks-vision": "^0.10.14"
+  }
+}
